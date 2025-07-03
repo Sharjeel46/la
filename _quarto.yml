@@ -7,8 +7,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      llaclass.qmd
+      - href: about.qmd
+        text: About
+      - href: llaclass.qmd
+        text: LLA Class
 
 format:
   html:
@@ -17,6 +19,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
